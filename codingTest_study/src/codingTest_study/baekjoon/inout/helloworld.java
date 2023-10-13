@@ -1,4 +1,4 @@
-package codingTest_study.baekjoon;
+package codingTest_study.baekjoon.inout;
 
 public class helloworld {
 
