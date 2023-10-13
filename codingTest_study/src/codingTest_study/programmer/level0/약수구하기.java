@@ -1,0 +1,29 @@
+package codingTest_study.programmer.level0;
+import java.util.ArrayList;
+
+public class 약수구하기 {
+	
+	// 230920
+	// 문제
+	// 정수 n이 매개변수로 주어질 때, n의 약수를 오름차순으로 담은 배열을 
+	// return하도록 solution 함수를 완성해주세요.
+	
+	class Solution {
+	    public ArrayList solution(int n) {
+	        ArrayList<Integer> answer = new ArrayList<>();
+	        
+	        for(int i= 1; i <= n; i++){
+	            
+	            if(n % i == 0){
+	                answer.add(i);
+	            }
+	        }
+	        
+	        
+	        return answer;
+	    }
+	}
+
+
+
+}
