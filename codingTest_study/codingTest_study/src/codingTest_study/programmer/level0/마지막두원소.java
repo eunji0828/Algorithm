@@ -13,7 +13,7 @@ public class 마지막두원소 {
 	// 마지막 원소를 두 배한 값을 추가하여 return하도록 
 	// solution 함수를 완성해주세요.
 	
-	class Solution {
+	class Solution { 
 	    public List solution(int[] num_list) {
 	        List<Integer> answer = new ArrayList<>();
 	        int num = 0;
